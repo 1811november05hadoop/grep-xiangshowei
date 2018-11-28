@@ -72,7 +72,8 @@ Ayapa
 Dengzhuang
 Ambohitrolomahitsy
 
-#4). 
+#4). grep -c "\<.ar" cities.txt
+22
 
 #5). grep -v ^C cities.txt
 Orlando
@@ -547,13 +548,35 @@ Mrzeżyno
 Lengkongjaya
 Bousso
 Santa Cruz
-Ambohitrolomahitsy
-Sūrāb
+Ambohitrolomahitsys
 Paltashaco
 Barão de Cocais
 Bambuí
 
-#6). 
+#6). egrep "[a-z|A-Z|-]{14,}" cities.txt
+Saint-Laurent-du-Var
+Charlottenberg
+Atarodangwautu
+Salon-de-Provence
+Sendangkemulian
+Nishi-Tokyo-shi
+Karolino-Buhaz
+Saint-Quentin-en-Yvelines
+Challhuahuacho
+Chervonopartyzans’k
+Ambohitrolomahitsy
 
 #7). grep ^B cities.txt | wc -l
 39
+
+#8). 
+grep -o "d" cities.txt | wc -l
+88
+
+#9). #8). grep -o "d" cities.txt | wc -l
+Izobil’nyy
+Invercargill
+Ingersoll
+Villa Gesell
+Ishii
+Ingersoll
